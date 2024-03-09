@@ -1,0 +1,34 @@
+.ClothDiv{
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.Product_div{
+    width: 100%;
+    height: 90%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+.Heading_div{
+    font-size:3rem;
+  
+  color:red;
+  font-family: 'Merienda', cursive;
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+@keyframes glow{
+    from{text-shadow:0px 0px 5px #7c5454,0px 0px 5px #7b6fbada;}
+    to{text-shadow:0px 0px 20px #7d5252,0px 0px 20px #6758afde;}
+  }

@@ -1,0 +1,46 @@
+
+.FashionDiv1{
+    width: 25%;
+    flex-direction: column;
+    color: white;
+    
+    background:  #2874f0;;
+}
+.FashionDiv2{
+    flex-direction: column;
+}
+
+
+
+
+.MyFashionDiv{
+    display: inline-block;
+    width: 75%;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    
+}
+
+
+@media (max-width:770px)
+{
+   .FashionDiv{
+    flex-direction: column;
+   }
+   .FashionDiv1{
+    flex-direction: row;
+    width: 100%;
+   }
+   .FashionDiv2{
+    flex-direction: row;
+   }
+   .MyFashionDiv{
+    width: 100%;
+   }
+}

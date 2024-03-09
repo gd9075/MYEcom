@@ -1,0 +1,59 @@
+/********ADV ADV ADV *******/
+.top-banner {
+	border: 1px solid #00000024;
+	padding: 30px 5px 30px 20px;
+	background: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.top-banner img {
+	width: 100%;
+	margin-top: 10px;
+}
+.top-banner h2 {
+	font-size: 18px;
+	color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.top-banner h3 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #484848;
+}
+.top-banner p {
+	margin: 0px;
+	font-size: 15px;
+	color: black;
+}
+
+
+
+
+
+
+.category-list {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	border: 1px dotted #ffda86;
+	border: 1px dashed #ffda86;
+}
+.category-list img {
+	width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.category-list h2 {
+	font-weight: 500;
+	margin: 0px;
+	font-size: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.category-list p {
+	font-size: 14px;
+	color: #ffda86;
+	margin: 0px;
+}
